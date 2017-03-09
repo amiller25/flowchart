@@ -5,9 +5,9 @@ $(document).ready (function() {
     var curLoc = document.getElementById("active");
     var prevLoc;
 
-    $(".op1").click (function () {
+    $(".op").click (function () {
         prevLoc = curLoc;
-        curLoc = $(".op1").next(".ques");
+        curLoc = $(".op").next();
         changeActive(prevLoc, curLoc);
     });
     
