@@ -14,6 +14,7 @@ $(document).ready (function() {
 });
 
 function changeActive(prevLoc, curLoc) {
+    prevLoc.removeAttribute("id");
     curLoc.attr("id", "active");
 }
 
