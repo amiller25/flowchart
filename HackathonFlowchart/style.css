@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+.clear { clear: both; visibility: hidden;}
+body { text-align: center;}
+div {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.start {
+}
+.br1 {
+    float: left;
+    width: 45%;
+}
+.br2 {
+    float: right;
+    width: 45%;
+}
+.op1 {
+}
+.op2 {
+}
+.end1 {
+}
+.end2 {
+}
+#active {
+    background-color: aqua;
+}
