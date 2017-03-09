@@ -2,10 +2,20 @@
 
 $(document).ready (function() {
 
-var curLoc = document.getElementById('active');
-var prevLoc;
+    var curLoc = document.getElementById("active");
+    var prevLoc;
+
+    $(".op1").click (function () {
+        prevLoc = curLoc;
+        curLoc = $(".op1").next();
+        changeActive(prevLoc, curLoc);
+    });
     
 });
+
+function changeActive(prevLoc, curLoc) {
+    curLoc.attr("id", "active");
+}
 
 /*
 onclick op1
