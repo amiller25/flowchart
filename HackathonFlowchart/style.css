@@ -11,21 +11,13 @@ div {
 
 .start {
 }
-.br1 {
+.br {
     float: left;
-    width: 45%;
-}
-.br2 {
-    float: right;
     width: 45%;
 }
 .op1 {
 }
-.op2 {
-}
 .end1 {
-}
-.end2 {
 }
 #active {
     background-color: aqua;
